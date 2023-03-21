@@ -1,0 +1,289 @@
+/* regole generali pagina */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* regole header */
+header {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav-link {
+    width: 45%;
+}
+
+.login {
+    width: 10%;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.title {
+    width: 50%;
+}
+
+.sub-title {
+    width: 50%;
+}
+
+.button-section {
+    width: 50%;
+}
+
+/* regole sezione main */
+main section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* regole prime 3 card */
+.central-card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 50px;
+}
+
+.finalcard {
+    flex-direction: column-reverse;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.col {
+    width: 45%;
+}
+
+/* regole ultima card */
+.col-reverse {
+    width: 100%;
+}
+
+.col-title {
+    margin-bottom: 30px;
+}
+
+.col-subtitle-reverse {
+    margin-bottom: 30px;
+}
+
+/* regole sezione finale main (invito al download) */
+.readytojoin {
+    margin-top: 50px;
+    min-height: 130px;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* regole footer */
+footer section {
+    display: flex;
+    justify-content: center;    
+}
+
+.footer-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.col-footer {
+    width: 15%;
+}
+
+.extra-footer-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.extra-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 70%;
+}
+
+
+
+
+
+/* regole DEBUG */
+header {
+    background-color: rgb(53, 53, 177);
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.logo {
+    background-color: brown;
+}
+
+.nav-link {
+    background-color: brown;
+}
+
+.login {
+    background-color: brown;
+}
+
+.jumbotron {
+    background-color: aqua;
+}
+
+.title {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
+}
+
+.sub-title {
+    background-color: brown;
+    flex-basis: 50px;
+    border: 2px solid blue;
+}
+
+.button-section {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
+}
+
+main section {
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.central-card {
+    background-color: yellow;
+    min-height: 450px;
+}
+
+.col {
+    background-color: aqua;
+}
+
+.image {
+    background-color: brown;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.col-title {
+    background-color: brown;
+    min-height: 200px;
+    border: 2px solid black;
+}
+
+.col-title-reverse {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.col-subtitle {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.col-subtitle-reverse {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.readytojoin {
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.col-title1 {
+    background-color: brown;
+    width: 40%;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.login1 {
+    background-color: brown;
+    width: 20%;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.footer-container {
+    background-color: yellow;
+    min-height: 50px;
+}
+
+footer section {
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.col-footer {
+    min-height: 200px;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.extra-footer-container {
+    background-color: aquamarine;
+}
+
+.extra-footer {
+    background-color: blueviolet;
+    min-height: 20px;
+}
+
+.logo-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
+}
+
+.button-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
+}
