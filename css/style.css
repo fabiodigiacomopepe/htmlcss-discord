@@ -135,6 +135,7 @@ main section {
 
 .finalcard {
     flex-direction: column-reverse;
+    width: 75%;
 }
 
 .reverse {
@@ -149,7 +150,7 @@ main section {
     width: 40%;
 }
 
-.central-card .col .image img {
+.central-card .col-reverse .image img {
     width: 100%;
 }
 
@@ -158,9 +159,20 @@ main section {
     width: 100%;
 }
 
+.central-card .col .image img {
+    width: 100%;
+}
+
 .col-title {
     margin-bottom: 30px;
     font-size: 37px;
+    font-weight: bold;
+}
+
+.col-title-reverse {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 33px;
     font-weight: bold;
 }
 
@@ -171,6 +183,10 @@ main section {
 
 .col-subtitle-reverse {
     margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 0 35px;
 }
 
 /* regole sezione finale main (invito al download) */
@@ -182,6 +198,26 @@ main section {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.col-title1 {
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.blue-button {
+    background-color: #7289da;
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 5px;
 }
 
 /* regole footer */
@@ -290,11 +326,11 @@ footer section {
     border: 2px solid black;
 } */
 
-.col-title-reverse {
+/* .col-title-reverse {
     background-color: brown;
     min-height: 100px;
     border: 2px solid black;
-}
+} */
 
 /* .col-subtitle {
     background-color: brown;
@@ -302,30 +338,30 @@ footer section {
     border: 2px solid black;
 } */
 
-.col-subtitle-reverse {
+/* .col-subtitle-reverse {
     background-color: brown;
     min-height: 100px;
     border: 2px solid black;
-}
+} */
 
-.readytojoin {
+/* .readytojoin {
     background-color: blueviolet;
     border: 2px solid black;
-}
+} */
 
-.col-title1 {
+/* .col-title1 {
     background-color: brown;
     width: 40%;
     height: 20px;
     border: 2px solid black;
-}
+} */
 
-.login1 {
+/* .login1 {
     background-color: brown;
     width: 20%;
     height: 20px;
     border: 2px solid black;
-}
+} */
 
 .footer-container {
     background-color: yellow;
