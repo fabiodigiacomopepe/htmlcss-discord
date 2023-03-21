@@ -1,0 +1,447 @@
+/* regole generali pagina */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Whitney, Helvetica Neue, Helvetica ,Arial,sans-serif;
+}
+
+
+
+/* regole header */
+header {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.header-container {
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav-link {
+    width: 45%;
+}
+
+.login {
+    width: 10%;
+}
+
+.white-button {
+    background-color: #ffffff;
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.black-button {
+    background-color: #23272a;
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.title {
+    width: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    width: 67%;
+    color:#ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.button-section {
+    width: 50%;
+    text-align: center;
+}
+
+.button-section span {
+    color: #ffffff;
+}
+
+/* regole sezione main */
+main section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-back-white {
+    background-color: #ffffff;
+}
+
+.section-back-gray {
+    background-color: #f6f6f6;
+}
+
+/* regole prime 3 card */
+.central-card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 50px;
+}
+
+.finalcard {
+    flex-direction: column-reverse;
+    width: 75%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.col {
+    width: 55%;
+}
+
+.col-text {
+    width: 40%;
+}
+
+.central-card .col-reverse .image img {
+    width: 100%;
+}
+
+/* regole ultima card */
+.col-reverse {
+    width: 100%;
+}
+
+.central-card .col .image img {
+    width: 100%;
+}
+
+.col-title {
+    margin-bottom: 30px;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.col-title-reverse {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.col-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.col-subtitle-reverse {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 0 35px;
+}
+
+/* regole sezione finale main (invito al download) */
+.readytojoin {
+    margin-top: 50px;
+    min-height: 130px;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-title1 {
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.blue-button {
+    background-color: #7289da;
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* regole footer */
+footer {
+    background-color: #23272a;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;    
+}
+
+.footer-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #3f4a6b;
+    padding-bottom: 30px;
+    padding-top: 45px;
+}
+
+.col-footer-large {
+    width: 20%;
+    color:#ffffff;
+    font-size: 10px;
+}
+
+.col-footer-large .footer-title {
+    color: #7289da;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.col-footer-large img {
+    width: 10%;
+}
+
+.col-footer {
+    width: 15%;
+}
+
+.icons {
+    font-size: 14px;
+}
+
+.icons i {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.col-footer ul li {
+    margin-bottom: 5px;
+}
+
+.col-footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.col-footer ul li:first-child a {
+    color: #7289da;
+    font-weight: bold;
+}
+
+.extra-footer-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.extra-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 70%;
+}
+
+
+
+
+
+/* regole DEBUG */
+/* header {
+    background-color: rgb(53, 53, 177);
+} */
+
+/* nav {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.logo {
+    background-color: brown;
+}
+
+.nav-link {
+    background-color: brown;
+}
+
+.login {
+    background-color: brown;
+} */
+
+/* .jumbotron {
+    background-color: aqua;
+}
+
+.title {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
+}
+
+.sub-title {
+    background-color: brown;
+    flex-basis: 50px;
+    border: 2px solid blue;
+}
+
+.button-section {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
+} */
+
+/* main section {
+    background-color: aquamarine;
+    border: 2px solid black;
+} */
+
+/* .central-card {
+    background-color: yellow;
+    min-height: 450px;
+}
+
+.col {
+    background-color: aqua;
+}
+
+.image {
+    background-color: brown;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.col-title {
+    background-color: brown;
+    min-height: 200px;
+    border: 2px solid black;
+} */
+
+/* .col-title-reverse {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+} */
+
+/* .col-subtitle {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+} */
+
+/* .col-subtitle-reverse {
+    background-color: brown;
+    min-height: 100px;
+    border: 2px solid black;
+} */
+
+/* .readytojoin {
+    background-color: blueviolet;
+    border: 2px solid black;
+} */
+
+/* .col-title1 {
+    background-color: brown;
+    width: 40%;
+    height: 20px;
+    border: 2px solid black;
+} */
+
+/* .login1 {
+    background-color: brown;
+    width: 20%;
+    height: 20px;
+    border: 2px solid black;
+} */
+
+/* .footer-container {
+    background-color: yellow;
+    min-height: 50px;
+}
+
+footer section {
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.col-footer, .col-footer-large {
+    min-height: 200px;
+    background-color: brown;
+    border: 2px solid black;
+} */
+
+/* .extra-footer-container {
+    background-color: aquamarine;
+} */
+
+/* .extra-footer {
+    background-color: blueviolet;
+    min-height: 20px;
+} */
+
+/* .logo-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
+}
+
+.button-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
+} */
