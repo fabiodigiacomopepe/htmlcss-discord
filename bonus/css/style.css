@@ -268,6 +268,7 @@ footer section {
 .icons i {
     padding-top: 10px;
     padding-right: 10px;
+    color: white;
 }
 
 .col-footer ul li {
@@ -297,6 +298,35 @@ footer section {
     padding-top: 20px;
     width: 70%;
 }
+
+
+
+
+.nav-link a:hover, .login1 a:hover, .button-footer a:hover {
+    color: #23272a;
+}
+
+.login a:hover, .button-section a:hover {
+    color:  #7289da;
+}
+
+.col-footer ul li a:hover {
+    color: rgb(50, 140, 128);
+}
+
+.icons i:hover {
+    color: #7289da;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
