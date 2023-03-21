@@ -235,7 +235,7 @@ footer section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3f4a6b;
     padding-bottom: 30px;
     padding-top: 45px;
 }
@@ -425,16 +425,16 @@ footer section {
     border: 2px solid black;
 } */
 
-.extra-footer-container {
+/* .extra-footer-container {
     background-color: aquamarine;
-}
+} */
 
-.extra-footer {
+/* .extra-footer {
     background-color: blueviolet;
     min-height: 20px;
-}
+} */
 
-.logo-footer {
+/* .logo-footer {
     width: 15%;
     min-height: 30px;
     background-color: brown;
@@ -444,4 +444,4 @@ footer section {
     width: 15%;
     min-height: 30px;
     background-color: brown;
-}
+} */
