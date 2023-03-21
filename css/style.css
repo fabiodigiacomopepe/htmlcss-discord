@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: center;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .header-container {
@@ -26,7 +27,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .nav-link ul {
@@ -55,13 +56,24 @@ li {
     width: 10%;
 }
 
-.login a {
+.white-button {
     background-color: #ffffff;
-    padding: 5px 10px;
+    padding: 9px 10px;
     border-radius: 20px;
     font-size: 15px;
     color: black;
     text-decoration: none;
+    margin: 0 5px;
+}
+
+.black-button {
+    background-color: #23272a;
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 5px;
 }
 
 .jumbotron {
@@ -74,14 +86,28 @@ li {
 
 .title {
     width: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .sub-title {
-    width: 50%;
+    width: 67%;
+    color:#ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .button-section {
     width: 50%;
+    text-align: center;
+}
+
+.button-section span {
+    color: #ffffff;
 }
 
 /* regole sezione main */
@@ -176,7 +202,7 @@ footer section {
     background-color: rgb(53, 53, 177);
 } */
 
-nav {
+/* nav {
     background-color: blueviolet;
     height: 50px;
 }
@@ -191,9 +217,9 @@ nav {
 
 .login {
     background-color: brown;
-}
+} */
 
-.jumbotron {
+/* .jumbotron {
     background-color: aqua;
 }
 
@@ -213,7 +239,7 @@ nav {
     background-color: brown;
     flex-basis: 35px;
     border: 2px solid blue;
-}
+} */
 
 main section {
     background-color: aquamarine;
