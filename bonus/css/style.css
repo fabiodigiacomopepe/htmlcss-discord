@@ -302,6 +302,14 @@ footer section {
 
 
 
+
+
+
+
+
+
+
+/* REGOLE BONUS */
 .nav-link a:hover, .login1 a:hover, .button-footer a:hover {
     color: #23272a;
 }
@@ -317,8 +325,6 @@ footer section {
 .icons i:hover {
     color: #7289da;
 }
-
-
 
 
 
