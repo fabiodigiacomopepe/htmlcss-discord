@@ -326,8 +326,16 @@ footer section {
     color: #7289da;
 }
 
+.wave {
+    width: 100%;
+    opacity: 0.035;
+    margin: -4px;
+}
 
-
+.wavereverse {
+    transform: rotate(180deg);
+    margin: 0;
+}
 
 
 
